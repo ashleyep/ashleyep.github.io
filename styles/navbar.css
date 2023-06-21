@@ -1,0 +1,43 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+  /* background-color: #ede9e9; */
+  overflow: hidden; 
+}
+
+body {
+  cursor: url("assets/paperairplane.png"), auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li a {
+  /* float: right; */
+  /* display: inline-block; */
+  /* float: right; */
+  color: #0b0000;
+  text-align: center;
+  border-radius: 18px;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+.topnav li {
+  display: inline-block;
+}
+.topnav ul {
+  float: right;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Add a color to the active/current link
+.topnav a.active {
+  background-color: #b4c9c2;
+  color: white;
+} */
