@@ -3,10 +3,11 @@
 .topnav {
   /* background-color: #ede9e9; */
   overflow: hidden; 
+  
 }
 
 body {
-  cursor: url("assets/paperairplane.png"), auto;
+  cursor: url("../assets/paperairplane.png"), auto;
 }
 
 /* Style the links inside the navigation bar */
