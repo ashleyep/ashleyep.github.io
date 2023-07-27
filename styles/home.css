@@ -1,8 +1,11 @@
 
 body {
     background-color: #D0EADE;
+    
 }
-
+.content-container {
+  margin-top: 70px;
+}
 .background {
    position:relative;
    display:flex;
@@ -10,8 +13,8 @@ body {
    align-items: center;
 }
 
-.background img {
-    margin-top: -3%;
+.background_img {
+  margin-top: -4%
 }
 /* .typewriter{
   font-family:Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;

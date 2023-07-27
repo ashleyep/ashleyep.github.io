@@ -10,7 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  position: fixed;
+  top: 0; /* Set the top position to 0 to stick it to the top */
+  left: 0; /* Set the left position to 0 */
+  right: 0; /* Set the right position to 0 */
+  z-index: 1000; 
 }
 
 body {
@@ -68,6 +72,7 @@ body {
 }
 .dropdown.open {
   height: 240px;
+  z-index: 1000;
 }
 
 .dropdown li {
