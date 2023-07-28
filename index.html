@@ -25,10 +25,12 @@
         <i class = "fa fa-bars"></i>
       </div>
       <div class="dropdown open">
+        <ul>
         <li><a href="pages/projects.html">PROJECTS</a></li>
         <li><a href="pages/design.html">DESIGN</a></li>
         <li><a href="pages/contact.html">CONTACT</a></li>
         <li><a class="active" href="index.html">HOME</a></li>
+      </ul>
       </div>
     </nav>
   </div>
@@ -47,14 +49,16 @@
     const toggleBtn = document.querySelector('.toggle_btn');
     const toggleBtnIcon = document.querySelector('.toggle_btn i');
     const dropDownMenu = document.querySelector('.dropdown');
-
+  
     toggleBtn.onclick = function () {
       dropDownMenu.classList.toggle('open');
       const isOpen = dropDownMenu.classList.contains('open');
-
-      toggleBtnIcon.className = isOpen ? 'fa fa-times' : 'fa fa-bars';
-    }
+  
+      // Update the class names for Font Awesome 6.0.0-beta3
+      toggleBtnIcon.className = isOpen ? 'fas fa-times' : 'fas fa-bars';
+    };
   </script>
+  
 </body>
 
 </html>
