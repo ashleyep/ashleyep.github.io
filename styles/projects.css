@@ -7,9 +7,11 @@
   .title {
 	  text-align: center;
     margin-top: 100px;
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     font-size: 25px;
     color: black;
+    border-top: 5px dashed #587D6A;
+    border-bottom: 5px dashed #587D6A;
   }
 
   .game-container {
