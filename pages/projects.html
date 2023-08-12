@@ -4,22 +4,91 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="../styles/navbar.css">
-  <link rel="stylesheet" href="../styles/projects.css">
+  <link rel="stylesheet" href="../styles/projects2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Projects</title>
 </head>
 
 <body>
-  <div class="container">
-    <nav class="topnav">
-      <img src="../assets/logo.png" alt="logo" width="120px" height="70px">
-      <ul>
-        <li><a class="active" href="projects.html">PROJECTS</a></li>
-        <li><a href="design.html">DESIGN</a></li>
-        <li><a href="../index.html">HOME</a></li>
-      </ul>
-      <!-- <a href="github.html">Github</a> -->
-    </nav>
+  <div id="navbar"></div>
+  <div class="title">GAME DEVELOPMENT</div>
+  <div class="game-container">
+    <!-- <div class="one_game"> -->
+    <div class="game-card">
+      <div class="game-content">
+        <img class = "game-img" src="../assets/pianopetals.png" alt="piano petals"> 
+        <!-- <div class="links"> -->
+          <div class="links">
+            <a href="https://github.com/ashleyep/ggj2023"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="https://ashleyep.itch.io/pianopetals"><i class="fa fa-gamepad fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+            <a href = "https://globalgamejam.org/2023/games/piano-petals-8"><i class="fa fa-globe fa-3x"></i></a>
+          <!-- </div> -->
+          </div>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="This project was created for the Global Game Jam in 2023. I was the primary programmer, using C# in conjunction with Unity to create the key mechanics and scoring system. Artists used procreate and photoshop, and musicians using ">
+            Popover on bottom
+          </button>
+        </div>
+        
+        <!-- <h3 class = "description">Piano Petals - Global Game Jam 2023</h3> -->
+        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
+      </div>
+      <div class="game-card">
+        <div class="game-content">
+          <img class = "game-img" src="../assets/fratcat.jpeg" alt="frat cat"> 
+          <div class="links">
+            <a href="https://github.com/ashleyep/ggj2022"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="https://ggj.s3.amazonaws.com/games/2022/01/169714/exec/-VvrI/Final%20Build%20Folder.zip"><i class="fa fa-gamepad fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+            <a href = "https://globalgamejam.org/2022/games/frat-cat-journey-center-frat-7"><i class="fa fa-globe fa-3x"></i></a>
+          <!-- </div> -->
+          </div>
+          <!-- <h3 class = "description">Frat Cat: Journey to the Center of the Frat - Global Game Jam 2022</h3> -->
+          <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
+          </div>
+      
+      </div>
+      
+      <div class="game-card">
+        <div class="game-content">
+          <img class = "game-img" src="../assets/galactic.png" alt="galactic ecosystems"> 
+          <div class="links">
+            <a href="https://ashleyep.itch.io/galactic-ecosystms"><i class="fa fa-gamepad fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+          <!-- </div> -->
+          </div>
+        <!-- <h3 class = "description">Frat Cat: Journey to the Center of the Frat - Global Game Jam 2022</h3> -->
+        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
+      </div>
+      </div>
+
+    <div class="game-card">
+      <div class="game-content">
+        <img class = "game-img" src="../assets/fashion4all.png" alt="fashion 4 all"> 
+        <!-- <h3 class = "description">Fashion 4 All - MIT Reality Hack 2023</h3> -->
+        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
+        <div class="links">
+          <a href="https://github.com/ashleyep/Fashion-For-All"><i class="fa-brands fa-github fa-3x"></i></a>
+          <a href="https://youtu.be/xSOB1uH-vD0"><i class="fab fa-youtube fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+          <a href = "https://devpost.com/software/fashion-for-all"><i class="fa fa-globe fa-3x"></i></a>
+        <!-- </div> -->
+        </div>
+      </div>
+     
+    </div>
+    <div class="game-card">
+      <div class="game-content">
+        <img class = "game-img" src="../assets/scavengar.png" alt="scavengar"> 
+        <div class="links">
+          <a href="https://github.com/ashleyep/AR_Lightship_Jam"><i class="fa-brands fa-github fa-3x"></i></a>
+          <a href="https://youtu.be/AH8krJ5ui_Q"><i class="fab fa-youtube fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+        <!-- </div> -->
+        </div>
+      <!-- <h3 class = "description">ScavengAR - Lightship 2022 Build-A-Thon</h3> -->
+      <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
+    </div>
+    </div>
+   
+
   </div>
 
   
@@ -27,44 +96,7 @@
     <p>GAME DEVELOPMENT</p>
  </div>
  <div class="game-container">
-    <div class="game-card">
-      <div class="game-content">
-        <img class = "game-img" src="../assets/pianopetals.png" alt="piano petals"> 
-        <!-- <h3 class = "description">Piano Petals - Global Game Jam 2023</h3> -->
-        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
-      </div>
-    </div>
-    <div class="game-card">
-      <div class="game-content">
-        <img class = "game-img" src="../assets/fashion4all.png" alt="fashion 4 all"> 
-        <!-- <h3 class = "description">Fashion 4 All - MIT Reality Hack 2023</h3> -->
-        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
-      </div>
-     
-    </div>
-    <div class="game-card">
-      <div class="game-content">
-        <img class = "game-img" src="../assets/scavengar.png" alt="scavengar"> 
-      <!-- <h3 class = "description">ScavengAR - Lightship 2022 Build-A-Thon</h3> -->
-      <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
-      </div>
-    </div>
-    <div class="game-card">
-      <div class="game-content">
-        <img class = "game-img" src="../assets/fratcat.jpeg" alt="frat cat"> 
-        <!-- <h3 class = "description">Frat Cat: Journey to the Center of the Frat - Global Game Jam 2022</h3> -->
-        <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
-      </div>
-    
-    </div>
-    <div class="game-card">
-      <div class="game-content">
-        <img class = "game-img-vert" src="../assets/galactic.jpeg" alt="galactic ecosystems"> 
-      <!-- <h3 class = "description">Frat Cat: Journey to the Center of the Frat - Global Game Jam 2022</h3> -->
-      <!-- insert a dropdown that gives you description, link to the game, repo, youtube video, etc. -->
-      </div>
-    </div>
-    add daily daisies stuff
+   
  </div>
 
   <div class="title">
@@ -79,6 +111,20 @@
     <h3>C++</h3>
     <p>this is where I would put what actually happened and stuff</p>
   </div> 
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Use a more recent version of jQuery -->
+  <script>
+    $(function() {
+      $("#navbar").load("./navbar.html"); // Load the navigation bar content
+    });
+  </script>
+  <script>
+   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
 </body>
 
 </html>
