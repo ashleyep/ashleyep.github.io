@@ -38,7 +38,15 @@ body {
     top: 15%;
     left: 53%;
     right: 30%;
-    font-size: 3vh;
+  }
+  .typewriter {
+    font-size: 5px;
+    background-color: #fff;
+  }
+  
+  .line {
+    height: 1.2em;
+    overflow: hidden;
   }
 
 
@@ -60,6 +68,9 @@ body {
     margin-bottom: 10px;
 }
 
+.links i:hover {
+  opacity: 0.6;
+}
 
 /* the projects stuff */
 .title {

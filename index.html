@@ -14,12 +14,16 @@
   <div class="content-container">
     <div class="background">
       <img class="background_img" src="assets/portfolio.png" alt="background" width="80%">
-        <span class="typewriter">&lt;hello! welcome to my portfolio!></span> 
+      <div class="typewriter">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div class="links">
-      <a href="https://www.linkedin.com/in/ashleyephilip/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
-      <a href="https://github.com/ashleyep"><i class="fa-brands fa-github fa-3x"></i></a>
-      <a href="mailto:ashleyephilip@gmail.com"><i class="fas fa-envelope fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+      <a href="https://www.linkedin.com/in/ashleyephilip/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+      <a href="https://github.com/ashleyep" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+      <a href="mailto:ashleyephilip@gmail.com" target="_blank"><i class="fas fa-envelope fa-3x"></i></a> <!-- Add "mailto:" for email link -->
+      <a href="https://drive.google.com/file/d/1Ldg1cezXulm3Mc5dA2QDHPhelYHrD9iD/view?usp=sharing" target="_blank"><i class="fa fa-file fa-3x"></i></a>
     </div>
     <div class="title">
       <p>GAME DEVELOPMENT</p> <!-- Use <p> for consistency -->
@@ -31,6 +35,35 @@
     $(function() {
       $("#navbar").load("pages/navbar.html"); // Load the navigation bar content
     });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const lines = document.querySelectorAll(".line");
+  const textArray = [
+    "<hello! welcome     ",
+    " to my portfolio/>"
+  ];
+  let lineIndex = 0;
+  let charIndex = 0;
+
+  function type() {
+    if (charIndex < textArray[lineIndex].length) {
+      lines[lineIndex].textContent += textArray[lineIndex][charIndex];
+      charIndex++;
+      setTimeout(type, 50);
+    } else {
+      lineIndex++;
+      charIndex = 0;
+      if (lineIndex === textArray.length) {
+        lineIndex = 0;
+      }
+      setTimeout(type, 1000);
+    }
+  }
+
+  type();
+});
+
   </script>
 </body>
 </html>
