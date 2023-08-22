@@ -47,7 +47,7 @@
 
 .design-img3 {
   display: flex;
-  width: 400px;
+  width: 350px;
   object-fit: cover;
   /* border: 10px solid #dedebe; */
   
@@ -90,7 +90,16 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background-color:#acd4a3e1;
+  background-color:#F5BF7C;
+} 
+.design-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color:#2c5a8c;
 } 
 
 
@@ -120,9 +129,6 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.card {
- margin: 10 px;
-}
 
 .card .card-img-top1{
   width: 400px !important;
@@ -132,7 +138,6 @@
   justify-content: center !important;
   align-items: center !important;
   object-fit: cover !important;
-  margin: 20px;
 }
 .card .card-img-top2{
   width: 400px !important;
@@ -142,7 +147,6 @@
   justify-content: center !important;
   align-items: center !important;
   object-fit: cover !important;
-  margin: 20px;
 }
 .card .card-img-top4{
   width: 400px !important;
@@ -152,7 +156,6 @@
   justify-content: center !important;
   align-items: center !important;
   object-fit: cover !important;
-  margin: 20px;
 }
 .card .card-img-top3{
   width: 400px !important;
@@ -171,21 +174,49 @@
   justify-content: center;
   width: 400px;
   height: 400px;
-  margin: 20px;
   border-radius: 50%;
   background-color:#acd4a3e1;
 } 
-
-.carousel-control-prev-icon {
+.design-content3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color:#080455e1;
+} 
+.design-content4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color:#ffffffe1;
+} 
+.carousel-control-prev-icon{
   margin-top: 800px;
   margin-left: -60px;
 }
 
-.carousel-control-next-icon {
+.carousel-control-next-icon  {
   margin-top: 800px;
   margin-left: 60px;
 }
 
+#carouselExampleControls2 .carousel-control-prev-icon{
+  margin-top: 400px;
+  margin-left: -60px;
+}
+
+#carouselExampleControls2 .carousel-control-next-icon  {
+  margin-top: 400px;
+  margin-left: 60px;
+}
+.carousel-item .cards-wrapper .card {
+  margin: 20px;
+}
 
 /* @media (min-width: 768px) {
   .card img {

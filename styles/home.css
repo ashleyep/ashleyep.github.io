@@ -40,8 +40,7 @@ body {
     right: 30%;
   }
   .typewriter {
-    font-size: 5px;
-    background-color: #fff;
+    font-size: 25px;
   }
   
   .line {
@@ -131,10 +130,10 @@ body {
     
 
 @media screen and (min-width: 1280px) {
-    .typewriter{
-        font-size: 4vh;
+    /* .typewriter{
+        font-size: 3vh;
         right: 25%;
-      }
+      } */
 
       /* hide the small links */
 }
