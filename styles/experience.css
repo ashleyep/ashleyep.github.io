@@ -9,11 +9,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .one img {
-    width: 400px;
+    width: 300px;
     margin-right: 60px;
 }
 
@@ -39,6 +39,7 @@ body {
     padding: 10px;
     width: 400px;
     background-color: white;
+    margin-right: 30px;
 }
 
 .repo i {
